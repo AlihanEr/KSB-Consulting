@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "approach": "Onze Aanpak",
+    "partners": "Partners",
+    "contact": "Contacteer Ons"
+  },
+  "hero": {
+    "titleMain": "Professionele IT Oplossingen",
+    "titleSub": "Voor Uw Onderneming",
+    "slogan": "Eerlijke en Oprechte Oplossingen",
+    "description": "Gepersonaliseerde IT-oplossingen ontworpen voor moderne bedrijven. Wij leveren geavanceerde technologie met uitzonderlijke service tegen voordelige prijzen.",
+    "btnExplore": "Ontdek Diensten",
+    "btnQuote": "Vraag Offerte",
+    "statProjects": "Projecten Geleverd",
+    "statSatisfaction": "Klanttevredenheid",
+    "statSupport": "Ondersteuning Beschikbaar"
+  },
+  "services": {
+    "tag": "Wat Wij Bieden",
+    "title": "Uitgebreide IT Diensten",
+    "description": "Op maat gemaakte oplossingen met een sterke focus op privacy, veiligheid en prestaties",
+    "card1": {
+      "title": "Enterprise IT Oplossingen",
+      "description": "Aangepaste IT-infrastructuur en oplossingen perfect afgestemd op uw bedrijfsbehoeften en doelstellingen.",
+      "feature1": "Strategische IT Planning",
+      "feature2": "Infrastructuur Ontwerp",
+      "feature3": "Systeem Integratie"
+    },
+    "card2": {
+      "title": "Moderne Showcase Websites",
+      "description": "Mooie, responsive websites die uw merk vertegenwoordigen en bezoekers omzetten in klanten.",
+      "feature1": "Aangepast Ontwerp",
+      "feature2": "Mobiel Responsive",
+      "feature3": "SEO Geoptimaliseerd"
+    },
+    "card3": {
+      "title": "Geavanceerde IT Netwerken",
+      "description": "Hogesnelheidsnetwerken met single access point architectuur en verbeterde beveiligingsprotocollen.",
+      "feature1": "Hogesnelheids Infrastructuur",
+      "feature2": "Uniforme Toegangspunten",
+      "feature3": "Geavanceerde Beveiliging"
+    },
+    "card4": {
+      "title": "Beveiliging & Bewaking",
+      "description": "Geavanceerde beveiligingscamerasystemen en VPN-oplossingen om uw bedrijfsmiddelen te beschermen.",
+      "feature1": "HD Camera Systemen",
+      "feature2": "Beveiligde VPN Toegang",
+      "feature3": "24/7 Monitoring"
+    },
+    "card5": {
+      "title": "Professionele Email Oplossingen",
+      "description": "Aangepaste zakelijke e-mailadressen met uw domein, voor professionele communicatie.",
+      "feature1": "Aangepaste Domein Emails",
+      "feature2": "Beveiligde Mail Servers",
+      "feature3": "Spam Bescherming"
+    },
+    "card6": {
+      "title": "IT Helpdesk & Ondersteuning",
+      "description": "Deskundige technische ondersteuning beschikbaar wanneer u het nodig heeft, IT-problemen snel en efficiënt oplossen.",
+      "feature1": "24/7 Ondersteuning Beschikbaar",
+      "feature2": "Hulp op Afstand",
+      "feature3": "Snelle Reactietijden"
+    },
+    "card7": {
+      "title": "Netwerk Opslag Oplossingen",
+      "description": "Gedeelde opslagsystemen die naadloze samenwerking en gegevenstoegang via uw netwerk mogelijk maken.",
+      "feature1": "Gecentraliseerde Opslag",
+      "feature2": "Automatische Backups",
+      "feature3": "Veilige Toegangscontrole"
+    },
+    "card8": {
+      "title": "VPN & Externe Toegang",
+      "description": "Beveiligde VPN-verbindingen voor werken op afstand, waarbij uw gegevens worden beschermd met militaire encryptie.",
+      "feature1": "Versleutelde Verbindingen",
+      "feature2": "Multi-Apparaat Ondersteuning",
+      "feature3": "Gemakkelijke Toegang"
+    }
+  },
+  "approach": {
+    "tag": "Hoe Wij Werken",
+    "title": "Onze Aanpak",
+    "description": "Een bewezen methodologie die resultaten levert",
+    "step1Title": "Consultatie & Analyse",
+    "step1Desc": "We beginnen met het begrijpen van uw bedrijf, uitdagingen en doelstellingen om de perfecte oplossing te creëren.",
+    "step2Title": "Aangepast Ontwerp",
+    "step2Desc": "Elke oplossing is op maat gemaakt om aan uw specifieke vereisten te voldoen, voor maximale efficiëntie.",
+    "step3Title": "Implementatie",
+    "step3Desc": "Professionele implementatie met minimale verstoring van uw activiteiten, uitgevoerd door gecertificeerde experts.",
+    "step4Title": "Continue Ondersteuning",
+    "step4Desc": "Voortdurend onderhoud en ondersteuning om uw systemen op topniveau te houden."
+  },
+  "partners": {
+    "tag": "Vertrouwd Door",
+    "title": "Onze Partners & Technologieën"
+  },
+  "whyChoose": {
+    "tag": "Waarom KSB Consulting",
+    "title": "Uw Vertrouwde IT Partner",
+    "feature1Title": "Privacy Eerst",
+    "feature1Desc": "Uw gegevensbeveiliging en privacy zijn onze topprioriteiten in elke oplossing die we leveren.",
+    "feature2Title": "Prestatie Gedreven",
+    "feature2Desc": "We optimaliseren elk systeem voor maximale snelheid, efficiëntie en betrouwbaarheid.",
+    "feature3Title": "Concurrerende Prijzen",
+    "feature3Desc": "Enterprise-grade oplossingen tegen voordelige prijzen die passen bij uw budget.",
+    "feature4Title": "Expert Team",
+    "feature4Desc": "Gecertificeerde professionals met jarenlange ervaring in enterprise IT-oplossingen."
+  },
+  "contact": {
+    "tag": "Neem Contact Op",
+    "title": "Laten We Uw IT Behoeften Bespreken",
+    "description": "Neem vandaag nog contact met ons op voor een gratis consultatie",
+    "locationTitle": "Kantoor Locatie",
+    "locationText": "123 Business Avenue<br>Tech District, TD 12345",
+    "phoneTitle": "Telefoon",
+    "phoneText": "+1 (555) 123-4567<br>Ma-Vr: 9:00 - 18:00",
+    "emailTitle": "Email",
+    "emailText": "info@ksbconsulting.com<br>support@ksbconsulting.com",
+    "formName": "Uw Naam",
+    "formEmail": "Uw Email",
+    "formPhone": "Telefoonnummer",
+    "formService": "Selecteer een Dienst",
+    "formServicePlaceholder": "Selecteer een Dienst",
+    "formServiceOption1": "IT Oplossingen",
+    "formServiceOption2": "Website Ontwikkeling",
+    "formServiceOption3": "Netwerk Installatie",
+    "formServiceOption4": "Beveiligingssystemen",
+    "formServiceOption5": "Email Oplossingen",
+    "formServiceOption6": "IT Ondersteuning",
+    "formServiceOption7": "Andere",
+    "formMessage": "Vertel ons over uw project",
+    "formButton": "Verstuur Bericht"
+  },
+  "footer": {
+    "description": "Professionele IT-oplossingen op maat voor uw zakelijk succes. Privacy, veiligheid en prestaties gegarandeerd.",
+    "servicesTitle": "Diensten",
+    "service1": "IT Oplossingen",
+    "service2": "Website Ontwikkeling",
+    "service3": "Netwerk Infrastructuur",
+    "service4": "Beveiligingssystemen",
+    "companyTitle": "Bedrijf",
+    "company1": "Onze Aanpak",
+    "company2": "Partners",
+    "company3": "Contact",
+    "company4": "Privacybeleid",
+    "connectTitle": "Verbinden",
+    "copyright": "© 2025 KSB Consulting. Alle rechten voorbehouden."
+  }
+}

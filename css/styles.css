@@ -137,6 +137,35 @@ body {
     box-shadow: var(--shadow-md);
 }
 
+/* Language Switcher */
+.lang-switcher {
+    display: flex;
+    gap: 8px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: var(--transition);
+    color: var(--text-dark);
+}
+
+.lang-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.lang-btn.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-white);
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -203,6 +232,15 @@ body {
     font-weight: 300;
     color: var(--text-dark);
     line-height: 1.2;
+}
+
+.hero-slogan {
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: 600;
+    color: var(--primary-color);
+    font-style: italic;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 
 .hero-description {
@@ -783,6 +821,13 @@ section {
 
     .nav-menu.active {
         left: 0;
+    }
+
+    .lang-switcher {
+        width: 100%;
+        justify-content: center;
+        padding-top: 20px;
+        border-top: 1px solid var(--border-color);
     }
 
     .hamburger {

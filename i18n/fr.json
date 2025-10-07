@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "approach": "Notre Approche",
+    "partners": "Partenaires",
+    "contact": "Contactez-Nous"
+  },
+  "hero": {
+    "titleMain": "Solutions IT Professionnelles",
+    "titleSub": "Pour Votre Entreprise",
+    "slogan": "Solutions Honnêtes et Sincères",
+    "description": "Solutions IT personnalisées conçues pour les entreprises modernes. Nous fournissons une technologie de pointe avec un service exceptionnel à des prix avantageux.",
+    "btnExplore": "Découvrir les Services",
+    "btnQuote": "Demander un Devis",
+    "statProjects": "Projets Livrés",
+    "statSatisfaction": "Satisfaction Client",
+    "statSupport": "Support Disponible"
+  },
+  "services": {
+    "tag": "Ce Que Nous Offrons",
+    "title": "Services IT Complets",
+    "description": "Solutions sur mesure avec un fort accent sur la confidentialité, la sécurité et les performances",
+    "card1": {
+      "title": "Solutions IT d'Entreprise",
+      "description": "Infrastructure et solutions IT personnalisées parfaitement alignées sur les besoins et objectifs de votre entreprise.",
+      "feature1": "Planification IT Stratégique",
+      "feature2": "Conception d'Infrastructure",
+      "feature3": "Intégration de Systèmes"
+    },
+    "card2": {
+      "title": "Sites Web Vitrines Modernes",
+      "description": "Sites web magnifiques et réactifs qui représentent votre marque et convertissent les visiteurs en clients.",
+      "feature1": "Design Personnalisé",
+      "feature2": "Mobile Responsive",
+      "feature3": "Optimisé SEO"
+    },
+    "card3": {
+      "title": "Réseaux IT de Pointe",
+      "description": "Réseaux haute vitesse avec architecture à point d'accès unique et protocoles de sécurité renforcés.",
+      "feature1": "Infrastructure Haute Vitesse",
+      "feature2": "Points d'Accès Unifiés",
+      "feature3": "Sécurité Avancée"
+    },
+    "card4": {
+      "title": "Sécurité & Surveillance",
+      "description": "Systèmes de caméras de sécurité avancés et solutions VPN pour protéger les actifs de votre entreprise.",
+      "feature1": "Systèmes de Caméras HD",
+      "feature2": "Accès VPN Sécurisé",
+      "feature3": "Surveillance 24/7"
+    },
+    "card5": {
+      "title": "Solutions Email Professionnelles",
+      "description": "Adresses email professionnelles personnalisées avec votre domaine, garantissant une communication professionnelle.",
+      "feature1": "Emails de Domaine Personnalisés",
+      "feature2": "Serveurs Mail Sécurisés",
+      "feature3": "Protection Anti-Spam"
+    },
+    "card6": {
+      "title": "Helpdesk IT & Support",
+      "description": "Support technique expert disponible quand vous en avez besoin, résolvant les problèmes IT rapidement et efficacement.",
+      "feature1": "Support 24/7 Disponible",
+      "feature2": "Assistance à Distance",
+      "feature3": "Temps de Réponse Rapides"
+    },
+    "card7": {
+      "title": "Solutions de Stockage Réseau",
+      "description": "Systèmes de stockage partagé permettant une collaboration fluide et un accès aux données sur votre réseau.",
+      "feature1": "Stockage Centralisé",
+      "feature2": "Sauvegardes Automatiques",
+      "feature3": "Contrôle d'Accès Sécurisé"
+    },
+    "card8": {
+      "title": "VPN & Accès à Distance",
+      "description": "Connexions VPN sécurisées pour le travail à distance, protégeant vos données avec un cryptage de grade militaire.",
+      "feature1": "Connexions Cryptées",
+      "feature2": "Support Multi-Appareils",
+      "feature3": "Accès Facile"
+    }
+  },
+  "approach": {
+    "tag": "Comment Nous Travaillons",
+    "title": "Notre Approche",
+    "description": "Une méthodologie éprouvée qui donne des résultats",
+    "step1Title": "Consultation & Analyse",
+    "step1Desc": "Nous commençons par comprendre votre entreprise, vos défis et objectifs pour créer la solution parfaite.",
+    "step2Title": "Conception Personnalisée",
+    "step2Desc": "Chaque solution est conçue sur mesure pour répondre à vos exigences spécifiques, garantissant une efficacité maximale.",
+    "step3Title": "Mise en Œuvre",
+    "step3Desc": "Déploiement professionnel avec une perturbation minimale de vos opérations, géré par des experts certifiés.",
+    "step4Title": "Support Continu",
+    "step4Desc": "Maintenance et support continus pour maintenir vos systèmes à leur performance maximale."
+  },
+  "partners": {
+    "tag": "Approuvé Par",
+    "title": "Nos Partenaires & Technologies"
+  },
+  "whyChoose": {
+    "tag": "Pourquoi KSB Consulting",
+    "title": "Votre Partenaire IT de Confiance",
+    "feature1Title": "Confidentialité d'Abord",
+    "feature1Desc": "La sécurité et la confidentialité de vos données sont nos principales priorités dans chaque solution que nous livrons.",
+    "feature2Title": "Axé sur les Performances",
+    "feature2Desc": "Nous optimisons chaque système pour une vitesse, une efficacité et une fiabilité maximales.",
+    "feature3Title": "Prix Compétitifs",
+    "feature3Desc": "Solutions de qualité entreprise à des prix avantageux qui s'adaptent à votre budget.",
+    "feature4Title": "Équipe d'Experts",
+    "feature4Desc": "Professionnels certifiés avec des années d'expérience dans les solutions IT d'entreprise."
+  },
+  "contact": {
+    "tag": "Entrer en Contact",
+    "title": "Discutons de Vos Besoins IT",
+    "description": "Contactez-nous aujourd'hui pour une consultation gratuite",
+    "locationTitle": "Localisation du Bureau",
+    "locationText": "123 Business Avenue<br>Tech District, TD 12345",
+    "phoneTitle": "Téléphone",
+    "phoneText": "+1 (555) 123-4567<br>Lun-Ven : 9h - 18h",
+    "emailTitle": "Email",
+    "emailText": "info@ksbconsulting.com<br>support@ksbconsulting.com",
+    "formName": "Votre Nom",
+    "formEmail": "Votre Email",
+    "formPhone": "Numéro de Téléphone",
+    "formService": "Sélectionner un Service",
+    "formServicePlaceholder": "Sélectionner un Service",
+    "formServiceOption1": "Solutions IT",
+    "formServiceOption2": "Développement Web",
+    "formServiceOption3": "Installation Réseau",
+    "formServiceOption4": "Systèmes de Sécurité",
+    "formServiceOption5": "Solutions Email",
+    "formServiceOption6": "Support IT",
+    "formServiceOption7": "Autre",
+    "formMessage": "Parlez-nous de votre projet",
+    "formButton": "Envoyer le Message"
+  },
+  "footer": {
+    "description": "Solutions IT professionnelles adaptées au succès de votre entreprise. Confidentialité, sécurité et performance garanties.",
+    "servicesTitle": "Services",
+    "service1": "Solutions IT",
+    "service2": "Développement Web",
+    "service3": "Infrastructure Réseau",
+    "service4": "Systèmes de Sécurité",
+    "companyTitle": "Entreprise",
+    "company1": "Notre Approche",
+    "company2": "Partenaires",
+    "company3": "Contact",
+    "company4": "Politique de Confidentialité",
+    "connectTitle": "Connecter",
+    "copyright": "© 2025 KSB Consulting. Tous droits réservés."
+  }
+}

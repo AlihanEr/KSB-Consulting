@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "approach": "Our Approach",
+    "partners": "Partners",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "titleMain": "Professional IT Solutions",
+    "titleSub": "For Your Enterprise",
+    "slogan": "Honest and Sincere Solutions",
+    "description": "Personalized IT solutions designed for modern businesses. We deliver cutting-edge technology with exceptional service at advantageous prices.",
+    "btnExplore": "Explore Services",
+    "btnQuote": "Get a Quote",
+    "statProjects": "Projects Delivered",
+    "statSatisfaction": "Client Satisfaction",
+    "statSupport": "Support Available"
+  },
+  "services": {
+    "tag": "What We Offer",
+    "title": "Comprehensive IT Services",
+    "description": "Tailored solutions with a strong focus on privacy, security, and performance",
+    "card1": {
+      "title": "Enterprise IT Solutions",
+      "description": "Customized IT infrastructure and solutions perfectly aligned with your business needs and objectives.",
+      "feature1": "Strategic IT Planning",
+      "feature2": "Infrastructure Design",
+      "feature3": "System Integration"
+    },
+    "card2": {
+      "title": "Modern Showcase Websites",
+      "description": "Beautiful, responsive websites that represent your brand and convert visitors into customers.",
+      "feature1": "Custom Design",
+      "feature2": "Mobile Responsive",
+      "feature3": "SEO Optimized"
+    },
+    "card3": {
+      "title": "Cutting-Edge IT Networks",
+      "description": "High-speed networks with single access point architecture and enhanced security protocols.",
+      "feature1": "High-Speed Infrastructure",
+      "feature2": "Unified Access Points",
+      "feature3": "Advanced Security"
+    },
+    "card4": {
+      "title": "Security & Surveillance",
+      "description": "Advanced security camera systems and VPN solutions to protect your business assets.",
+      "feature1": "HD Camera Systems",
+      "feature2": "Secure VPN Access",
+      "feature3": "24/7 Monitoring"
+    },
+    "card5": {
+      "title": "Professional Email Solutions",
+      "description": "Custom business email addresses with your domain, ensuring professional communication.",
+      "feature1": "Custom Domain Emails",
+      "feature2": "Secure Mail Servers",
+      "feature3": "Spam Protection"
+    },
+    "card6": {
+      "title": "IT Helpdesk & Support",
+      "description": "Expert technical support available when you need it, resolving IT issues quickly and efficiently.",
+      "feature1": "24/7 Support Available",
+      "feature2": "Remote Assistance",
+      "feature3": "Fast Response Times"
+    },
+    "card7": {
+      "title": "Network Storage Solutions",
+      "description": "Shared storage systems enabling seamless collaboration and data access across your network.",
+      "feature1": "Centralized Storage",
+      "feature2": "Automatic Backups",
+      "feature3": "Secure Access Control"
+    },
+    "card8": {
+      "title": "VPN & Remote Access",
+      "description": "Secure VPN connections for remote work, protecting your data with military-grade encryption.",
+      "feature1": "Encrypted Connections",
+      "feature2": "Multi-Device Support",
+      "feature3": "Easy Access"
+    }
+  },
+  "approach": {
+    "tag": "How We Work",
+    "title": "Our Approach",
+    "description": "A proven methodology that delivers results",
+    "step1Title": "Consultation & Analysis",
+    "step1Desc": "We start by understanding your business, challenges, and objectives to create the perfect solution.",
+    "step2Title": "Custom Design",
+    "step2Desc": "Every solution is tailor-made to fit your specific requirements, ensuring maximum efficiency.",
+    "step3Title": "Implementation",
+    "step3Desc": "Professional deployment with minimal disruption to your operations, handled by certified experts.",
+    "step4Title": "Ongoing Support",
+    "step4Desc": "Continuous maintenance and support to keep your systems running at peak performance."
+  },
+  "partners": {
+    "tag": "Trusted By",
+    "title": "Our Partners & Technologies"
+  },
+  "whyChoose": {
+    "tag": "Why KSB Consulting",
+    "title": "Your Trusted IT Partner",
+    "feature1Title": "Privacy First",
+    "feature1Desc": "Your data security and privacy are our top priorities in every solution we deliver.",
+    "feature2Title": "Performance Driven",
+    "feature2Desc": "We optimize every system for maximum speed, efficiency, and reliability.",
+    "feature3Title": "Competitive Pricing",
+    "feature3Desc": "Enterprise-grade solutions at advantageous prices that fit your budget.",
+    "feature4Title": "Expert Team",
+    "feature4Desc": "Certified professionals with years of experience in enterprise IT solutions."
+  },
+  "contact": {
+    "tag": "Get In Touch",
+    "title": "Let's Discuss Your IT Needs",
+    "description": "Contact us today for a free consultation",
+    "locationTitle": "Office Location",
+    "locationText": "123 Business Avenue<br>Tech District, TD 12345",
+    "phoneTitle": "Phone",
+    "phoneText": "+1 (555) 123-4567<br>Mon-Fri: 9AM - 6PM",
+    "emailTitle": "Email",
+    "emailText": "info@ksbconsulting.com<br>support@ksbconsulting.com",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formPhone": "Phone Number",
+    "formService": "Select a Service",
+    "formServicePlaceholder": "Select a Service",
+    "formServiceOption1": "IT Solutions",
+    "formServiceOption2": "Website Development",
+    "formServiceOption3": "Network Setup",
+    "formServiceOption4": "Security Systems",
+    "formServiceOption5": "Email Solutions",
+    "formServiceOption6": "IT Support",
+    "formServiceOption7": "Other",
+    "formMessage": "Tell us about your project",
+    "formButton": "Send Message"
+  },
+  "footer": {
+    "description": "Professional IT solutions tailored for your business success. Privacy, security, and performance guaranteed.",
+    "servicesTitle": "Services",
+    "service1": "IT Solutions",
+    "service2": "Website Development",
+    "service3": "Network Infrastructure",
+    "service4": "Security Systems",
+    "companyTitle": "Company",
+    "company1": "Our Approach",
+    "company2": "Partners",
+    "company3": "Contact",
+    "company4": "Privacy Policy",
+    "connectTitle": "Connect",
+    "copyright": "© 2025 KSB Consulting. All rights reserved."
+  }
+}

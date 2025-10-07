@@ -20,11 +20,16 @@
                     <span class="logo-sub">Consulting</span>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#approach">Our Approach</a></li>
-                    <li><a href="#partners">Partners</a></li>
-                    <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+                    <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#approach" data-i18n="nav.approach">Our Approach</a></li>
+                    <li><a href="#partners" data-i18n="nav.partners">Partners</a></li>
+                    <li><a href="#contact" class="btn-contact" data-i18n="nav.contact">Contact Us</a></li>
+                    <li class="lang-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="nl">NL</button>
+                        <button class="lang-btn" data-lang="fr">FR</button>
+                    </li>
                 </ul>
                 <div class="hamburger">
                     <span></span>
@@ -41,28 +46,29 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    <span class="hero-title-main">Professional IT Solutions</span>
-                    <span class="hero-title-sub">For Your Enterprise</span>
+                    <span class="hero-title-main" data-i18n="hero.titleMain">Professional IT Solutions</span>
+                    <span class="hero-title-sub" data-i18n="hero.titleSub">For Your Enterprise</span>
                 </h1>
-                <p class="hero-description">
+                <p class="hero-slogan" data-i18n="hero.slogan">Honest and Sincere Solutions</p>
+                <p class="hero-description" data-i18n="hero.description">
                     Personalized IT solutions designed for modern businesses. We deliver cutting-edge technology with exceptional service at advantageous prices.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#services" class="btn btn-primary">Explore Services</a>
-                    <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+                    <a href="#services" class="btn btn-primary" data-i18n="hero.btnExplore">Explore Services</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero.btnQuote">Get a Quote</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">
                         <span class="stat-number">150+</span>
-                        <span class="stat-label">Projects Delivered</span>
+                        <span class="stat-label" data-i18n="hero.statProjects">Projects Delivered</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">98%</span>
-                        <span class="stat-label">Client Satisfaction</span>
+                        <span class="stat-label" data-i18n="hero.statSatisfaction">Client Satisfaction</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number">24/7</span>
-                        <span class="stat-label">Support Available</span>
+                        <span class="stat-label" data-i18n="hero.statSupport">Support Available</span>
                     </div>
                 </div>
             </div>
@@ -73,9 +79,9 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">What We Offer</span>
-                <h2 class="section-title">Comprehensive IT Services</h2>
-                <p class="section-description">Tailored solutions with a strong focus on privacy, security, and performance</p>
+                <span class="section-tag" data-i18n="services.tag">What We Offer</span>
+                <h2 class="section-title" data-i18n="services.title">Comprehensive IT Services</h2>
+                <p class="section-description" data-i18n="services.description">Tailored solutions with a strong focus on privacy, security, and performance</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -85,12 +91,12 @@
                             <polyline points="9 22 9 12 15 12 15 22"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Enterprise IT Solutions</h3>
-                    <p class="service-description">Customized IT infrastructure and solutions perfectly aligned with your business needs and objectives.</p>
+                    <h3 class="service-title" data-i18n="services.card1.title">Enterprise IT Solutions</h3>
+                    <p class="service-description" data-i18n="services.card1.description">Customized IT infrastructure and solutions perfectly aligned with your business needs and objectives.</p>
                     <ul class="service-features">
-                        <li>Strategic IT Planning</li>
-                        <li>Infrastructure Design</li>
-                        <li>System Integration</li>
+                        <li data-i18n="services.card1.feature1">Strategic IT Planning</li>
+                        <li data-i18n="services.card1.feature2">Infrastructure Design</li>
+                        <li data-i18n="services.card1.feature3">System Integration</li>
                     </ul>
                 </div>
 
@@ -101,12 +107,12 @@
                             <path d="M8 21h8M12 17v4"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Modern Showcase Websites</h3>
-                    <p class="service-description">Beautiful, responsive websites that represent your brand and convert visitors into customers.</p>
+                    <h3 class="service-title" data-i18n="services.card2.title">Modern Showcase Websites</h3>
+                    <p class="service-description" data-i18n="services.card2.description">Beautiful, responsive websites that represent your brand and convert visitors into customers.</p>
                     <ul class="service-features">
-                        <li>Custom Design</li>
-                        <li>Mobile Responsive</li>
-                        <li>SEO Optimized</li>
+                        <li data-i18n="services.card2.feature1">Custom Design</li>
+                        <li data-i18n="services.card2.feature2">Mobile Responsive</li>
+                        <li data-i18n="services.card2.feature3">SEO Optimized</li>
                     </ul>
                 </div>
 
@@ -118,12 +124,12 @@
                             <line x1="12" y1="22.08" x2="12" y2="12"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Cutting-Edge IT Networks</h3>
-                    <p class="service-description">High-speed networks with single access point architecture and enhanced security protocols.</p>
+                    <h3 class="service-title" data-i18n="services.card3.title">Cutting-Edge IT Networks</h3>
+                    <p class="service-description" data-i18n="services.card3.description">High-speed networks with single access point architecture and enhanced security protocols.</p>
                     <ul class="service-features">
-                        <li>High-Speed Infrastructure</li>
-                        <li>Unified Access Points</li>
-                        <li>Advanced Security</li>
+                        <li data-i18n="services.card3.feature1">High-Speed Infrastructure</li>
+                        <li data-i18n="services.card3.feature2">Unified Access Points</li>
+                        <li data-i18n="services.card3.feature3">Advanced Security</li>
                     </ul>
                 </div>
 
@@ -134,12 +140,12 @@
                             <circle cx="12" cy="10" r="3"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Security & Surveillance</h3>
-                    <p class="service-description">Advanced security camera systems and VPN solutions to protect your business assets.</p>
+                    <h3 class="service-title" data-i18n="services.card4.title">Security & Surveillance</h3>
+                    <p class="service-description" data-i18n="services.card4.description">Advanced security camera systems and VPN solutions to protect your business assets.</p>
                     <ul class="service-features">
-                        <li>HD Camera Systems</li>
-                        <li>Secure VPN Access</li>
-                        <li>24/7 Monitoring</li>
+                        <li data-i18n="services.card4.feature1">HD Camera Systems</li>
+                        <li data-i18n="services.card4.feature2">Secure VPN Access</li>
+                        <li data-i18n="services.card4.feature3">24/7 Monitoring</li>
                     </ul>
                 </div>
 
@@ -150,12 +156,12 @@
                             <polyline points="22,6 12,13 2,6"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Professional Email Solutions</h3>
-                    <p class="service-description">Custom business email addresses with your domain, ensuring professional communication.</p>
+                    <h3 class="service-title" data-i18n="services.card5.title">Professional Email Solutions</h3>
+                    <p class="service-description" data-i18n="services.card5.description">Custom business email addresses with your domain, ensuring professional communication.</p>
                     <ul class="service-features">
-                        <li>Custom Domain Emails</li>
-                        <li>Secure Mail Servers</li>
-                        <li>Spam Protection</li>
+                        <li data-i18n="services.card5.feature1">Custom Domain Emails</li>
+                        <li data-i18n="services.card5.feature2">Secure Mail Servers</li>
+                        <li data-i18n="services.card5.feature3">Spam Protection</li>
                     </ul>
                 </div>
 
@@ -166,12 +172,12 @@
                             <path d="M12 6v6l4 2"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">IT Helpdesk & Support</h3>
-                    <p class="service-description">Expert technical support available when you need it, resolving IT issues quickly and efficiently.</p>
+                    <h3 class="service-title" data-i18n="services.card6.title">IT Helpdesk & Support</h3>
+                    <p class="service-description" data-i18n="services.card6.description">Expert technical support available when you need it, resolving IT issues quickly and efficiently.</p>
                     <ul class="service-features">
-                        <li>24/7 Support Available</li>
-                        <li>Remote Assistance</li>
-                        <li>Fast Response Times</li>
+                        <li data-i18n="services.card6.feature1">24/7 Support Available</li>
+                        <li data-i18n="services.card6.feature2">Remote Assistance</li>
+                        <li data-i18n="services.card6.feature3">Fast Response Times</li>
                     </ul>
                 </div>
 
@@ -182,12 +188,12 @@
                             <polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">Network Storage Solutions</h3>
-                    <p class="service-description">Shared storage systems enabling seamless collaboration and data access across your network.</p>
+                    <h3 class="service-title" data-i18n="services.card7.title">Network Storage Solutions</h3>
+                    <p class="service-description" data-i18n="services.card7.description">Shared storage systems enabling seamless collaboration and data access across your network.</p>
                     <ul class="service-features">
-                        <li>Centralized Storage</li>
-                        <li>Automatic Backups</li>
-                        <li>Secure Access Control</li>
+                        <li data-i18n="services.card7.feature1">Centralized Storage</li>
+                        <li data-i18n="services.card7.feature2">Automatic Backups</li>
+                        <li data-i18n="services.card7.feature3">Secure Access Control</li>
                     </ul>
                 </div>
 
@@ -198,12 +204,12 @@
                             <path d="M7 11V7a5 5 0 0110 0v4"/>
                         </svg>
                     </div>
-                    <h3 class="service-title">VPN & Remote Access</h3>
-                    <p class="service-description">Secure VPN connections for remote work, protecting your data with military-grade encryption.</p>
+                    <h3 class="service-title" data-i18n="services.card8.title">VPN & Remote Access</h3>
+                    <p class="service-description" data-i18n="services.card8.description">Secure VPN connections for remote work, protecting your data with military-grade encryption.</p>
                     <ul class="service-features">
-                        <li>Encrypted Connections</li>
-                        <li>Multi-Device Support</li>
-                        <li>Easy Access</li>
+                        <li data-i18n="services.card8.feature1">Encrypted Connections</li>
+                        <li data-i18n="services.card8.feature2">Multi-Device Support</li>
+                        <li data-i18n="services.card8.feature3">Easy Access</li>
                     </ul>
                 </div>
             </div>
@@ -214,30 +220,30 @@
     <section id="approach" class="approach">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">How We Work</span>
-                <h2 class="section-title">Our Approach</h2>
-                <p class="section-description">A proven methodology that delivers results</p>
+                <span class="section-tag" data-i18n="approach.tag">How We Work</span>
+                <h2 class="section-title" data-i18n="approach.title">Our Approach</h2>
+                <p class="section-description" data-i18n="approach.description">A proven methodology that delivers results</p>
             </div>
             <div class="approach-grid">
                 <div class="approach-card">
                     <div class="approach-number">01</div>
-                    <h3 class="approach-title">Consultation & Analysis</h3>
-                    <p class="approach-description">We start by understanding your business, challenges, and objectives to create the perfect solution.</p>
+                    <h3 class="approach-title" data-i18n="approach.step1Title">Consultation & Analysis</h3>
+                    <p class="approach-description" data-i18n="approach.step1Desc">We start by understanding your business, challenges, and objectives to create the perfect solution.</p>
                 </div>
                 <div class="approach-card">
                     <div class="approach-number">02</div>
-                    <h3 class="approach-title">Custom Design</h3>
-                    <p class="approach-description">Every solution is tailor-made to fit your specific requirements, ensuring maximum efficiency.</p>
+                    <h3 class="approach-title" data-i18n="approach.step2Title">Custom Design</h3>
+                    <p class="approach-description" data-i18n="approach.step2Desc">Every solution is tailor-made to fit your specific requirements, ensuring maximum efficiency.</p>
                 </div>
                 <div class="approach-card">
                     <div class="approach-number">03</div>
-                    <h3 class="approach-title">Implementation</h3>
-                    <p class="approach-description">Professional deployment with minimal disruption to your operations, handled by certified experts.</p>
+                    <h3 class="approach-title" data-i18n="approach.step3Title">Implementation</h3>
+                    <p class="approach-description" data-i18n="approach.step3Desc">Professional deployment with minimal disruption to your operations, handled by certified experts.</p>
                 </div>
                 <div class="approach-card">
                     <div class="approach-number">04</div>
-                    <h3 class="approach-title">Ongoing Support</h3>
-                    <p class="approach-description">Continuous maintenance and support to keep your systems running at peak performance.</p>
+                    <h3 class="approach-title" data-i18n="approach.step4Title">Ongoing Support</h3>
+                    <p class="approach-description" data-i18n="approach.step4Desc">Continuous maintenance and support to keep your systems running at peak performance.</p>
                 </div>
             </div>
         </div>
@@ -247,8 +253,8 @@
     <section id="partners" class="partners">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Trusted By</span>
-                <h2 class="section-title">Our Partners & Technologies</h2>
+                <span class="section-tag" data-i18n="partners.tag">Trusted By</span>
+                <h2 class="section-title" data-i18n="partners.title">Our Partners & Technologies</h2>
             </div>
             <div class="brands-slider">
                 <div class="brands-track">
@@ -300,35 +306,35 @@
         <div class="container">
             <div class="why-choose-content">
                 <div class="why-choose-text">
-                    <span class="section-tag">Why KSB Consulting</span>
-                    <h2 class="section-title">Your Trusted IT Partner</h2>
+                    <span class="section-tag" data-i18n="whyChoose.tag">Why KSB Consulting</span>
+                    <h2 class="section-title" data-i18n="whyChoose.title">Your Trusted IT Partner</h2>
                     <div class="features-list">
                         <div class="feature-item">
                             <div class="feature-icon">✓</div>
                             <div class="feature-content">
-                                <h4>Privacy First</h4>
-                                <p>Your data security and privacy are our top priorities in every solution we deliver.</p>
+                                <h4 data-i18n="whyChoose.feature1Title">Privacy First</h4>
+                                <p data-i18n="whyChoose.feature1Desc">Your data security and privacy are our top priorities in every solution we deliver.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">✓</div>
                             <div class="feature-content">
-                                <h4>Performance Driven</h4>
-                                <p>We optimize every system for maximum speed, efficiency, and reliability.</p>
+                                <h4 data-i18n="whyChoose.feature2Title">Performance Driven</h4>
+                                <p data-i18n="whyChoose.feature2Desc">We optimize every system for maximum speed, efficiency, and reliability.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">✓</div>
                             <div class="feature-content">
-                                <h4>Competitive Pricing</h4>
-                                <p>Enterprise-grade solutions at advantageous prices that fit your budget.</p>
+                                <h4 data-i18n="whyChoose.feature3Title">Competitive Pricing</h4>
+                                <p data-i18n="whyChoose.feature3Desc">Enterprise-grade solutions at advantageous prices that fit your budget.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">✓</div>
                             <div class="feature-content">
-                                <h4>Expert Team</h4>
-                                <p>Certified professionals with years of experience in enterprise IT solutions.</p>
+                                <h4 data-i18n="whyChoose.feature4Title">Expert Team</h4>
+                                <p data-i18n="whyChoose.feature4Desc">Certified professionals with years of experience in enterprise IT solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -354,9 +360,9 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Get In Touch</span>
-                <h2 class="section-title">Let's Discuss Your IT Needs</h2>
-                <p class="section-description">Contact us today for a free consultation</p>
+                <span class="section-tag" data-i18n="contact.tag">Get In Touch</span>
+                <h2 class="section-title" data-i18n="contact.title">Let's Discuss Your IT Needs</h2>
+                <p class="section-description" data-i18n="contact.description">Contact us today for a free consultation</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -368,8 +374,8 @@
                             </svg>
                         </div>
                         <div class="contact-details">
-                            <h4>Office Location</h4>
-                            <p>123 Business Avenue<br>Tech District, TD 12345</p>
+                            <h4 data-i18n="contact.locationTitle">Office Location</h4>
+                            <p data-i18n="contact.locationText">123 Business Avenue<br>Tech District, TD 12345</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -379,8 +385,8 @@
                             </svg>
                         </div>
                         <div class="contact-details">
-                            <h4>Phone</h4>
-                            <p>+1 (555) 123-4567<br>Mon-Fri: 9AM - 6PM</p>
+                            <h4 data-i18n="contact.phoneTitle">Phone</h4>
+                            <p data-i18n="contact.phoneText">+1 (555) 123-4567<br>Mon-Fri: 9AM - 6PM</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -391,37 +397,37 @@
                             </svg>
                         </div>
                         <div class="contact-details">
-                            <h4>Email</h4>
-                            <p>info@ksbconsulting.com<br>support@ksbconsulting.com</p>
+                            <h4 data-i18n="contact.emailTitle">Email</h4>
+                            <p data-i18n="contact.emailText">info@ksbconsulting.com<br>support@ksbconsulting.com</p>
                         </div>
                     </div>
                 </div>
                 <form class="contact-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" data-i18n="contact.formName" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                        <input type="email" data-i18n="contact.formEmail" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" placeholder="Phone Number">
+                        <input type="tel" data-i18n="contact.formPhone" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
                         <select>
-                            <option value="">Select a Service</option>
-                            <option value="it-solutions">IT Solutions</option>
-                            <option value="websites">Website Development</option>
-                            <option value="networks">Network Setup</option>
-                            <option value="security">Security Systems</option>
-                            <option value="email">Email Solutions</option>
-                            <option value="support">IT Support</option>
-                            <option value="other">Other</option>
+                            <option value="" data-i18n="contact.formServicePlaceholder">Select a Service</option>
+                            <option value="it-solutions" data-i18n="contact.formServiceOption1">IT Solutions</option>
+                            <option value="websites" data-i18n="contact.formServiceOption2">Website Development</option>
+                            <option value="networks" data-i18n="contact.formServiceOption3">Network Setup</option>
+                            <option value="security" data-i18n="contact.formServiceOption4">Security Systems</option>
+                            <option value="email" data-i18n="contact.formServiceOption5">Email Solutions</option>
+                            <option value="support" data-i18n="contact.formServiceOption6">IT Support</option>
+                            <option value="other" data-i18n="contact.formServiceOption7">Other</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                        <textarea data-i18n="contact.formMessage" placeholder="Tell us about your project" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact.formButton">Send Message</button>
                 </form>
             </div>
         </div>
@@ -436,30 +442,30 @@
                         <span class="logo-text">KSB</span>
                         <span class="logo-sub">Consulting</span>
                     </div>
-                    <p class="footer-description">
+                    <p class="footer-description" data-i18n="footer.description">
                         Professional IT solutions tailored for your business success. Privacy, security, and performance guaranteed.
                     </p>
                 </div>
                 <div class="footer-column">
-                    <h4>Services</h4>
+                    <h4 data-i18n="footer.servicesTitle">Services</h4>
                     <ul>
-                        <li><a href="#services">IT Solutions</a></li>
-                        <li><a href="#services">Website Development</a></li>
-                        <li><a href="#services">Network Infrastructure</a></li>
-                        <li><a href="#services">Security Systems</a></li>
+                        <li><a href="#services" data-i18n="footer.service1">IT Solutions</a></li>
+                        <li><a href="#services" data-i18n="footer.service2">Website Development</a></li>
+                        <li><a href="#services" data-i18n="footer.service3">Network Infrastructure</a></li>
+                        <li><a href="#services" data-i18n="footer.service4">Security Systems</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Company</h4>
+                    <h4 data-i18n="footer.companyTitle">Company</h4>
                     <ul>
-                        <li><a href="#approach">Our Approach</a></li>
-                        <li><a href="#partners">Partners</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#approach" data-i18n="footer.company1">Our Approach</a></li>
+                        <li><a href="#partners" data-i18n="footer.company2">Partners</a></li>
+                        <li><a href="#contact" data-i18n="footer.company3">Contact</a></li>
+                        <li><a href="#" data-i18n="footer.company4">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Connect</h4>
+                    <h4 data-i18n="footer.connectTitle">Connect</h4>
                     <div class="social-links">
                         <a href="#" aria-label="LinkedIn">
                             <svg viewBox="0 0 24 24" fill="currentColor">
@@ -475,11 +481,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 KSB Consulting. All rights reserved.</p>
+                <p data-i18n="footer.copyright">&copy; 2025 KSB Consulting. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
 </body>
 </html>
