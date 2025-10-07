@@ -544,6 +544,7 @@ section {
 .partners {
     background: var(--bg-white);
     overflow: hidden;
+    padding-top: 0;
 }
 
 .brands-slider {
@@ -766,7 +767,7 @@ section {
 }
 
 .about-content {
-    padding: 100px 0;
+    padding: 100px 0 60px;
     background: var(--bg-white);
 }
 
@@ -988,6 +989,20 @@ section {
     flex-wrap: wrap;
 }
 
+.about-cta .btn-primary,
+.about-cta .btn-secondary {
+    background: var(--text-white);
+    color: var(--primary-color);
+    border: 2px solid var(--text-white);
+}
+
+.about-cta .btn-primary:hover,
+.about-cta .btn-secondary:hover {
+    background: transparent;
+    color: var(--text-white);
+    border-color: var(--text-white);
+}
+
 /* Active nav link */
 .nav-menu a.active {
     color: var(--primary-color);
@@ -1074,7 +1089,7 @@ section {
 .footer-logo {
     display: flex;
     align-items: baseline;
-    gap: 4px;
+    gap: 8px;
     font-weight: 900;
     font-size: 24px;
     flex-shrink: 0;
