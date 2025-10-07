@@ -472,8 +472,9 @@ section {
 
 .approach-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    position: relative;
 }
 
 .approach-card {
@@ -482,11 +483,28 @@ section {
     padding: 40px 32px;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
+    position: relative;
+}
+
+.approach-card:not(:last-child)::after {
+    content: '→';
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    z-index: 2;
 }
 
 .approach-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
+}
+
+.approach-card:hover .approach-number {
+    color: var(--primary-color);
 }
 
 .approach-number {
@@ -495,6 +513,7 @@ section {
     color: rgba(0, 26, 102, 0.15);
     line-height: 1;
     margin-bottom: 16px;
+    transition: var(--transition);
 }
 
 .approach-title {
@@ -972,6 +991,14 @@ section {
 @media (max-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .approach-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .approach-card:not(:last-child)::after {
+        display: none;
     }
 
     .about-grid {
