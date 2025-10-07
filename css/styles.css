@@ -75,6 +75,12 @@ body {
     font-weight: 900;
     font-size: 28px;
     cursor: pointer;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.logo:hover {
+    opacity: 0.8;
 }
 
 .logo-text {
@@ -510,23 +516,19 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    filter: grayscale(100%);
-    opacity: 0.6;
+    padding: 10px;
     transition: var(--transition);
 }
 
-.brand-logo:hover {
-    filter: grayscale(0%);
-    opacity: 1;
+.brand-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: var(--transition);
 }
 
-.brand-placeholder {
-    padding: 20px 40px;
-    background: var(--bg-gray);
-    border: 2px solid var(--border-color);
-    border-radius: 12px;
-    font-weight: 600;
-    color: var(--text-light);
+.brand-logo:hover img {
+    transform: scale(1.05);
 }
 
 @keyframes scroll {
@@ -534,7 +536,7 @@ section {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-180px * 6 - 80px * 6));
+        transform: translateX(calc(-180px * 10 - 80px * 10));
     }
 }
 

@@ -66,18 +66,8 @@ document.querySelectorAll('.service-card, .approach-card, .feature-item, .contac
     observer.observe(el);
 });
 
-// ===== BRANDS SLIDER PAUSE ON HOVER =====
-const brandsTrack = document.querySelector('.brands-track');
-
-if (brandsTrack) {
-    brandsTrack.addEventListener('mouseenter', () => {
-        brandsTrack.style.animationPlayState = 'paused';
-    });
-
-    brandsTrack.addEventListener('mouseleave', () => {
-        brandsTrack.style.animationPlayState = 'running';
-    });
-}
+// ===== BRANDS SLIDER =====
+// Carousel runs continuously without pausing
 
 // ===== CONTACT FORM HANDLING =====
 const contactForm = document.querySelector('.contact-form');
