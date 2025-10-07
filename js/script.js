@@ -3,7 +3,8 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
 if (hamburger) {
-    hamburger.addEventListener('click', () => {
+    hamburger.addEventListener('click', (e) => {
+        e.stopPropagation();
         navMenu.classList.toggle('active');
         hamburger.classList.toggle('active');
     });
@@ -15,6 +16,21 @@ if (hamburger) {
             hamburger.classList.remove('active');
         });
     });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (navMenu.classList.contains('active') &&
+            !navMenu.contains(e.target) &&
+            !hamburger.contains(e.target)) {
+            navMenu.classList.remove('active');
+            hamburger.classList.remove('active');
+        }
+    });
+
+    // Prevent menu clicks from closing the menu
+    navMenu.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
 }
 
 // ===== NAVBAR SCROLL EFFECT =====
@@ -23,8 +39,10 @@ const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
         navbar.classList.add('scrolled');
+        document.body.classList.add('navbar-scrolled');
     } else {
         navbar.classList.remove('scrolled');
+        document.body.classList.remove('navbar-scrolled');
     }
 });
 
